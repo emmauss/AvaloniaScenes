@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/MVVM/">
+    <Project Path="src/SceneSample.Mvvm/SceneSample.Mvvm.Android/SceneSample.Mvvm.Android.csproj">
+      <Deploy />
+    </Project>
+    <Project Path="src/SceneSample.Mvvm/SceneSample.Mvvm.Browser/SceneSample.Mvvm.Browser.csproj" />
+    <Project Path="src/SceneSample.Mvvm/SceneSample.Mvvm.Desktop/SceneSample.Mvvm.Desktop.csproj" />
+    <Project Path="src/SceneSample.Mvvm/SceneSample.Mvvm.iOS/SceneSample.Mvvm.iOS.csproj">
+      <Deploy />
+    </Project>
+    <Project Path="src/SceneSample.Mvvm/SceneSample.Mvvm/SceneSample.Mvvm.csproj" />
+  </Folder>
+</Solution>
