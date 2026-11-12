@@ -2,10 +2,12 @@
 using Android.Runtime;
 using Avalonia;
 using Avalonia.Android;
+using Avalonia.Controls;
 
 namespace SceneSample.Mvvm.Android
 {
     [Application]
+    [SceneApp<App>]
     public class Application : AvaloniaAndroidApplication<App>
     {
         protected Application(nint javaReference, JniHandleOwnership transfer) : base(javaReference, transfer)
@@ -16,7 +18,7 @@ namespace SceneSample.Mvvm.Android
         {
             return base.CustomizeAppBuilder(builder)
                 .UseScenes()
-            .WithInterFont();
+                .WithInterFont();
         }
     }
 }
